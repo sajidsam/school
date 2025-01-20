@@ -154,9 +154,10 @@ body {
 }
 
 /* 2.Standard Curriculum Section stars here */
-.Standard-cur{
+.Standard-cur {
     border: 2px solid black;
 }
+
 .standar-cur-divs {
 
     display: flex;
@@ -200,12 +201,14 @@ body {
 .Standard-img1 {
     margin-top: 52px;
 }
+
 .Standard-img2 {
     margin-top: 63px;
 }
+
 .Standard-img3 {
     margin-top: 63px;
-   
+
 }
 
 .st-sub-title {
@@ -241,4 +244,109 @@ body {
     color: rgba(135, 0, 255, 1);
     font-weight: bold;
     font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer section starts here */
+.footer-section {
+    border: 2px solid;
+    background-color: rgba(1, 172, 253, 1);
+}
+
+.footer-divs {
+    display: flex;
+    margin: 122px 200px 174px 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+
+    border: 1px solid;
+}
+
+.footer-div1 {
+    border: 1px solid;
+    color: white;
+}
+
+.footer-div2{
+   
+   
+    border: 1px solid;
+    width: 800px;
+    text-align: center;
+
+}
+
+.footer-div3 {
+    border: 1px solid;
+
+}
+
+.footer-div-title {
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+
+.footer-des {}
+
+.imgANDtitle {
+
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+}
+
+.footer-title2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+.title2-options {
+
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.footer-title3 {
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+.footer-images {
+    display: flex;
+    gap: 10px;
 }
