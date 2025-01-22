@@ -153,6 +153,12 @@ body {
 }
 
 /* 2.Standard Curriculum Section stars here */
+.Standard-cur {
+    background-image: url('assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .standar-cur-divs {
 
@@ -266,12 +272,12 @@ body {
 
 /* Our story section starts here */
 .Our-Stories {
-    height: 1000px;
-    background: linear-gradient(to top, rgba(254, 163, 1, 1) 0.5%, rgba(255, 255, 255, 1) 100%),url('assets/story.png');
+    height: 1018px;
+    background: url('assets/bg.png'), linear-gradient(to top, rgba(254, 163, 1, 1) -60%, rgba(255, 255, 255, 1) 100%);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
+    
+    
 }
 
 .Our-Stories-title {
@@ -279,7 +285,7 @@ body {
     font-size: 46px;
     font-weight: bold;
     color: black;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 
 }
 .story-divs {
