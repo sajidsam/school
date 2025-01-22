@@ -154,7 +154,7 @@ body {
 
 /* 2.Standard Curriculum Section stars here */
 .Standard-cur {
-    background-image: url('assets/bg.png');
+    background-image: url('../assets/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -273,7 +273,7 @@ body {
 /* Our story section starts here */
 .Our-Stories {
     height: 1018px;
-    background: url('assets/bg.png'), linear-gradient(to top, rgba(254, 163, 1, 1) -60%, rgba(255, 255, 255, 1) 100%);
+    background: url('../assets/bg.png'), linear-gradient(to top, rgba(254, 163, 1, 1) -60%, rgba(255, 255, 255, 1) 100%);
     background-size: cover;
     background-position: center;
     
