@@ -241,15 +241,36 @@ body {
     font-weight: bold;
     font-size: 15px;
 }
+.button{
+    display: flex;
+    justify-content: center;
+}
+.image-button {
+    display: flex;
+    gap: 10px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-bottom:50px;
+    background-color: transparent;
+}
+
+.image-button img {
+    width: 100%;
+    
+
+}
+
 
 
 /* Our story section starts here */
 .Our-Stories {
-    height: 800px;
-    background: linear-gradient(to top, rgba(254, 163, 1, 1) 0.5%, rgba(255, 255, 255, 1) 100%),url('assets/stories-2.png');
+    height: 900px;
+    background: linear-gradient(to top, rgba(254, 163, 1, 1) 0.5%, rgba(255, 255, 255, 1) 100%),url('assets/story.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .Our-Stories-title {
@@ -257,6 +278,7 @@ body {
     font-size: 46px;
     font-weight: bold;
     color: black;
+    margin-bottom: 60px;
 
 }
 .story-divs {
