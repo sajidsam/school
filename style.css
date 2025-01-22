@@ -1,6 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 body {
     max-width: 1440px;
-    max-height: 3092px;
 }
 
 .Fonts {
@@ -93,35 +95,7 @@ body {
     font-size: 20px;
 
 }
-@media only screen and (max-width: 430px) {
 
-    .hide{
-        display: none;
-    }
-    .nav-item{
-        display: none;
-    }
-    .hero-divs{
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 0px;
-    }
-    .justify{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .hero-div1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .standar-cur-divs{
-        flex-direction: column;
-    }
-}
 /* Main body started here------------------------------------------------- */
 
 /* 1.Hero section starts here*/
@@ -271,11 +245,13 @@ body {
 
 /* Our story section starts here */
 .Our-Stories {
-
-    background-color: yellow;
     height: 800px;
-    background: linear-gradient(to top, rgba(254, 163, 1, 1) 0.5%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to top, rgba(254, 163, 1, 1) 0.5%, rgba(255, 255, 255, 1) 100%),url('assets/stories-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .Our-Stories-title {
     text-align: center;
     font-size: 46px;
@@ -414,31 +390,28 @@ footer{
     background-color: rgba(1, 172, 253, 1);
 }
 .footer-section{
-    padding: 20px;
+    padding: 50px;
 }
 .footer-divs {
     display: flex;
-    margin: auto 200px auto 120px;
-    align-items: center;
+    margin: auto 140px;
     justify-content: center;
     gap: 180px;
 
 
 }
-
+.ftr-img{
+    width: 60px;
+}
 .footer-div1 {
     color: white;
+    width: 300px;
 }
 
-.footer-div2 {
-
-
-    width: 800px;
+.footer-div2{
+    width: 200px;
 
 }
-
-
-
 .footer-div-title {
     font-weight: bold;
     font-size: 28px;
@@ -462,8 +435,12 @@ footer{
     text-decoration: none;
     list-style: none;
     color: white;
+    margin-left: -40px;
+    
 }
-
+.option{
+    margin-top: 10px;
+}
 .footer-title3 {
     font-weight: bold;
     font-size: 22px;
@@ -472,5 +449,10 @@ footer{
 
 .footer-images {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
+
+/* media query stars here */
+
+
+
