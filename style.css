@@ -218,6 +218,7 @@ body {
     margin: 40px 33px 40px 33px;
     font-family: Raleway;
     font-weight: 15px;
+    color: rgba(128, 128, 128, 1);
 
 }
 
@@ -265,7 +266,7 @@ body {
 
 /* Our story section starts here */
 .Our-Stories {
-    height: 900px;
+    height: 1000px;
     background: linear-gradient(to top, rgba(254, 163, 1, 1) 0.5%, rgba(255, 255, 255, 1) 100%),url('assets/story.png');
     background-size: cover;
     background-position: center;
@@ -404,6 +405,22 @@ body {
 
     width: 100%;
     border-radius: 16px 16px 0 0;
+}
+.viewAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    text-align: center;
+    margin-top: 90px;
+}
+.View-button{
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
 }
 
 /* Footer section starts here */
