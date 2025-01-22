@@ -366,8 +366,8 @@ body {
     position: absolute;
     background-color: rgba(60, 216, 232, 1);
     padding: 10px 30px;
-    margin-top: 345px;
-    margin-left: -560px;
+    margin-top: 315px;
+    margin-left: -500px;
     border-radius: 46px;
     border: none;
    outline: none;
@@ -377,8 +377,8 @@ body {
     background-color: rgba(149, 178, 38, 1);
     padding: 5px 10px;
     border-radius: 16px;
-    margin-top: 150px;
-    margin-left: -250px;
+    margin-top: 135px;
+    margin-left: -240px;
     border: none;
     outline: none;
 }
@@ -387,8 +387,8 @@ body {
     background-color: rgba(93, 88, 240, 1);
     padding: 5px 10px;
     border-radius: 16px;
-    margin-top: 150px;
-    margin-left: -250px;
+    margin-top: 135px;
+    margin-left: -240px;
     border: none;
     outline: none;
    
@@ -398,8 +398,8 @@ body {
     background-color: rgba(149, 178, 38, 1);
     padding: 5px 10px;
     border-radius: 16px;
-    margin-top: 155px;
-    margin-left: -250px;
+    margin-top: 145px;
+    margin-left: -240px;
     border: none;
     outline: none;
 }
@@ -408,13 +408,13 @@ body {
     background-color: rgba(149, 178, 38, 1);
     padding: 5px 10px;
     border-radius: 16px;
-    margin-top: 155px;
-    margin-left: -250px;
+    margin-top: 145px;
+    margin-left: -240px;
     border: none;
     outline: none;
 }
 .our-story-des{
-    padding: 8px;
+    padding: 20px;
 }
 
 .our-story-img {
@@ -437,6 +437,8 @@ body {
     font-size: 20px;
     font-weight: bold;
     border-radius: 12px;
+    border: none;
+    outline: none;
 }
 
 /* Footer section starts here */
