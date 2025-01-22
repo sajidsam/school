@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: auto;
 }
 body {
     max-width: 1440px;
@@ -505,11 +506,17 @@ footer{
     display: flex;
     gap: 20px;
 }
+.bar{
+    display: none;
+}
 
 /* media query stars here */
 
 @media screen and (max-width:390px) {
 
+    .bar{
+        display: block;
+    }
 .hide{
     display: none;
 }   
@@ -523,7 +530,7 @@ footer{
 }
 .Hero-section{
   
-    margin: 70px 16px 0px 16px;
+    margin: 0px 16px 0px 16px;
     text-align: center;
 }
 .hero-divs{
@@ -564,31 +571,31 @@ footer{
     
 }
 .Standard-cur-title{
-    margin-top: 0px;
+    margin-top: -80px;
     font-size: 26px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 26px;
 }
 .standar-cur-divs
 {   
     justify-content: center;
     flex-direction: column;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    gap: 0px;
      
 }
 .standar-cur-div1,.standar-cur-div2,.standar-cur-div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
     width: 357px;
     padding: 36px 28px;
     border-radius: 12px;
     text-align: center;
-}
-.st-sub-title{
-    
-    margin: 22px 105px 0px 105px;
-    font-size: 16px;
-
 }
 .st-sub-des{
     margin: 22px 81px 0px 81px;
@@ -614,9 +621,8 @@ footer{
 .st-sub-title{
     display: flex;
     justify-content: center;
-    width: 150px;
-    height: 21px;
-    margin: 22px 102px 0px 102px;
+    width: 100%;
+    margin: 0px;
     
 }
 .read-more1,.read-more2,.read-more3{
@@ -722,8 +728,7 @@ footer{
     flex-direction: column;
     margin: auto;
     justify-content: center;
-    gap: 0px
-    ;
+    gap: 0px;
 
 
 }
