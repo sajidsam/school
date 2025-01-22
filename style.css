@@ -166,7 +166,7 @@ body {
 
     display: flex;
     justify-content: center;
-    gap: 28px;
+    gap: 10px;
     margin: 80px 140px 0px 140px;
 }
 
@@ -243,6 +243,7 @@ body {
     color: rgba(100, 200, 255, 1);
     font-weight: bold;
     font-size: 15px;
+    
 }
 
 .read-more2 {
@@ -250,6 +251,7 @@ body {
     color: rgba(240, 170, 0, 1);
     font-weight: bold;
     font-size: 15px;
+    padding-top: 20px;
 }
 
 .read-more3 {
@@ -257,6 +259,7 @@ body {
     color: rgba(135, 0, 255, 1);
     font-weight: bold;
     font-size: 15px;
+    padding-top: -20px;
 }
 .button{
     display: flex;
