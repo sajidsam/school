@@ -154,11 +154,12 @@ body {
 
 /* 2.Standard Curriculum Section stars here */
 .Standard-cur {
-    background-image: url('../assets/bg.png');
+    background-image: url('/assets/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 .standar-cur-divs {
 
